@@ -1,0 +1,56 @@
+@keyframes color-change {
+    0% {
+      color: #d6ff6b;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+@keyframes color-button {
+    0% {
+        background-color: #D6FF6B
+    }
+    50% {
+        background-color: #ffffff;
+    }
+    100% {
+        background-color: #D6FF6B;
+    }
+}
+body {
+    font-family: Inter Thin 100; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color:  #5988FF; /* Цвет фона веб-страницы */
+    color: #ffffff; /* Цвет основного текста */ 
+}
+h1 {
+    color: #d6ff6b; /* Цвет заголовка */
+    font-size: 25px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h1:hover {animation: color-change 3s infinite}
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+p {
+    font-size: 15px;
+    color: white;
+}
+li {
+    font-size: 20px;
+}
+button {
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color:#d6ff6b;
+    color:#5988FF;
+    
+}
+button:hover{animation: color-button 3s infinite}
